@@ -1,0 +1,21 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+
+members = [
+    "helper",
+    "day-1",
+    "day-2",
+    "day-3",
+    "day-4",
+    "day-5",
+    "day-6",
+    "day-7",
+]
